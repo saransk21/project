@@ -1,0 +1,15 @@
+.con{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+}
+
+.contain{
+    border: 5px solid black;
+    width: fit-content;
+    border-radius: 100px;
+    padding: 0 40px;
+  
+    
+}
