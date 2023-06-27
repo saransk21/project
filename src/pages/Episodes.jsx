@@ -37,11 +37,12 @@ function Episodes() {
   const character = data.character;
 
   return (
-    <div className='con'>
+    <div className='top'>
         <div className='contain'>
       <h1>Episodes List:</h1>
 
       <h2>Name : {character.name}</h2>
+      <div className='episode'>
 
         {
             character.episode.map((item)=>
@@ -50,6 +51,7 @@ function Episodes() {
             <p>Air-date : {item.air_date}</p>
             </div> )
         }
+        </div>
     </div>
     </div>
   );

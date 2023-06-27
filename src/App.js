@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
-import Profile from './components/Profile';
-import Episodes from './components/Episodes';
+import Profile from './pages/Profile';
+import Episodes from './pages/Episodes';
 
 
 
